@@ -1,0 +1,171 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #fff;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: #f44336;
+}
+
+.logo-container > * {
+    padding: 0px 10px;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.search {
+    font-size: 1.7rem;
+    color: #757575;
+}
+.central-container {
+    width: auto;
+    height: 100vh;
+    background-image: url(../img/london.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-container {
+    background-color: #fff;
+    margin: 0 auto;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 0.2fr 0.8fr;
+}
+
+.sections-search {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+}
+.categoria {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.categoria > * {
+    margin: 0px 5px;
+}
+.categoria:hover {
+    background-color: #f44336;
+    transition: 0.5s;
+}
+.search-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5% 30px ;
+}
+
+.search-form form {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+
+
+.search-form section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.search-form section input {
+    width: 37vw;
+    height: 50px;
+
+}
+
+.search-form button { 
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: #616161;
+   
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    color: #606060;
+    padding: 50;
+}
+footer > * {
+    padding: 10px 0px;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+footer p span {
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    
+}
+footer .social-icons i {
+    margin: 5px;
+    
+}
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .search-form form {
+        display: inline;
+    }
+    .search-container { 
+        width: 100vw;
+        height: 100vh;
+    }
+    .search-form form section input {
+        width: 85%;
+    }
+    .search-form button {
+        width: 40vw;
+        height: 8vh;
+    }
+    
+}
