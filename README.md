@@ -1,2 +1,5 @@
 # ProjetoFront-end
-Projeto front-end usando html, css (flex box, flex grid e media query) | Design de "w3.css"
+
+Projeto pratico usando html,css(com uso de flex box e flex grid) e media query para responsabilidade, apenas para estudo e pratica de front-end
+
+Design de: w3.css
